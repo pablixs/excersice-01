@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculador de factura</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+
+<body>
+    <h1>vamo a <span class="change">resolve &#128073;</span></h1>
+
+    <div class="container">
+        <div class="top">
+            <div class="welcome">
+                <h3>Bienvenido <br><span id="miNombre"></span>&#128513;</h3>
+            </div>
+            <div class="title">
+                <h1>Mi factura</h1>
+            </div>
+            <div class="logo">
+                <p>Tzuzul Energy</p>
+                <img src="/img/tzuzul-logo.png" alt="">
+            </div>
+        </div>
+        <div class="mid">
+            <div class="titles">
+                <h4>Mi consumo</h4>
+                <h4>Valor a abonar</h4>
+                <h4>Descuento por unidad</h4>
+            </div>
+            <div class="titles-content">
+                <div class="consumo"><p><span id="miConsumo"></span></p></div>
+                <div class="cuota"><p>$<span id="miCuota"></span></p></div>
+                <div class="descuento"><p>-$<span id="miDescuento"></span></p></div>           
+            </div>
+            
+        </div>
+        <div class="bottom">
+            <div class="titles-content2">
+                <h4>Valor total a abonar: $<span id="valorTotal"></span></h4>
+            </div>
+        </div>
+    </div>
+
+    <script src="./js/index.js"></script>
+</body>
+
+</html>
